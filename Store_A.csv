@@ -1,6 +1,0 @@
-order_id,date,item_name,quantity,unit_price,total_amount,category
-1001,10-01-23,T-Shirt,5,10,50,Casual
-1002,15-01-23,Jeans,2,40,80,Casual
-1003,01-02-23,Jacket,1,60,60,Outerwear
-1004,10-02-23,T-Shirt,3,12,36,Casual
-1005,05-03-23,Jeans,4,45,180,Casual

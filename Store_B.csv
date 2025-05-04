@@ -1,6 +1,0 @@
-order_id,date,item_name,quantity,unit_price,total_amount,category
-2001,12-01-23,Sweater,2,50,100,Outerwear
-2002,20-01-23,Shorts,3,20,60,Casual
-2003,05-02-23,Sweater,1,55,55,Outerwear
-2004,15-02-23,Shorts,4,22,88,Casual
-2005,01-03-23,Jacket,2,65,130,Outerwear
