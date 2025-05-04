@@ -39,7 +39,7 @@ class DataProcessor:
                     self.df[col] = pd.to_numeric(self.df[col], errors='coerce')
             
             # Initialize PostgreSQL database connection
-            self.engine = create_engine('postgresql://postgres:1234@localhost:5432/retail_data')
+            self.engine = create_engine('postgresql://postgres:samplepass@localhost:5433/retail_data')
             
         except Exception as e:
             raise ValueError(f"Error reading CSV file: {str(e)}")
@@ -50,9 +50,9 @@ class DataProcessor:
             conn = psycopg2.connect(
                 dbname="postgres",
                 user="postgres",
-                password="1234",
+                password="samplepass",
                 host="localhost",
-                port="5432"
+                port="5433"
             )
             conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
             cursor = conn.cursor()

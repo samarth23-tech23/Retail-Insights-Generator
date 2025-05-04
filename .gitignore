@@ -162,3 +162,14 @@ cython_debug/
 #.idea/
 env/
 __pycache__/
+
+# Visual Studio Code settings
+.vscode/
+
+# Plotly/Streamlit artifacts
+.streamlit/
+.plotly/
+
+# Cohere, dotenv, and other local env-related files
+*.env
+.env.*
