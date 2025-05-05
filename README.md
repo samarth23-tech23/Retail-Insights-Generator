@@ -24,7 +24,7 @@ A Streamlit-based application that processes retail data and generates insights 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/retail-insight-generator.git
+   git clone https://github.com/samarth23-tech23/retail-insight-generator.git
    cd retail-insight-generator
    ```
 
